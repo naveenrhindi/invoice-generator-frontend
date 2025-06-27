@@ -1,0 +1,79 @@
+/* Template4.css */
+
+.template4 {
+  max-width: 900px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 128, 128, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  color: #2e2e2e;
+}
+
+.template4-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #008080;
+}
+
+.company-name {
+  color: #008080;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.template4-logo {
+  height: 80px;
+  width: auto;
+}
+
+.template4-box {
+  background-color: #e6f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+  border-left: 4px solid #00a1a1;
+}
+
+.template4-table thead {
+  background-color: #008080;
+  color: white;
+}
+
+.template4-table th,
+.template4-table td {
+  padding: 0.75rem;
+  vertical-align: middle;
+  border: 1px solid #dee2e6;
+}
+
+.template4-totals p {
+  margin: 0.25rem 0;
+}
+
+.template4-totals .text-highlight {
+  color: #008080;
+}
+
+.template4-bank,
+.template4-notes {
+  background-color: #f4fdfd;
+  padding: 1rem;
+  border-left: 4px solid #00a1a1;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .template4-header {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+
+  .template4-title {
+    font-size: 1.75rem;
+  }
+
+  .template4-totals {
+    text-align: left;
+  }
+}

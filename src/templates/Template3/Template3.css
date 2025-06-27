@@ -1,0 +1,101 @@
+.template3 {
+  background: #fff;
+  color: #2c3e50;
+  font-family: 'Helvetica Neue', sans-serif;
+  border: 2px solid #e0e0e0;
+  padding: 1rem 1.5rem; /* Matches Template1's padding */
+  width: 100%;
+  max-width: 800px; /* Match Template1's maximum width */
+  margin: 1rem auto; /* Centered with vertical spacing */
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+}
+
+
+.template3-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #2980b9;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+.template3-logo img {
+  height: 110px;
+}
+
+.template3-invoice-title {
+  font-size: 2.4rem;
+  color: #2980b9;
+  font-weight: 700;
+  text-align: right;
+}
+
+.template3-box {
+  background-color: #ecf0f1;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+}
+
+.template3-box h5 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #2980b9;
+  margin-bottom: 0.5rem;
+}
+
+.template3-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+
+.template3-table th {
+  background-color: #3498db;
+  color: white;
+  padding: 0.75rem;
+  text-align: left;
+  font-weight: bold;
+  border-bottom: 2px solid #ccc;
+}
+
+.template3-table td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.template3-totals {
+  text-align: right;
+  margin-top: 1rem;
+  border-top: 2px solid #2980b9;
+  padding-top: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.template3-note,
+.template3-bank {
+  font-size: 0.95rem;
+  margin-top: 2rem;
+  color: #555;
+}
+
+@media (max-width: 767.98px) {
+  .template3-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .template3-invoice-title {
+    text-align: left;
+    margin-top: 1rem;
+  }
+
+  .template3-table th,
+  .template3-table td {
+    font-size: 0.85rem;
+  }
+}

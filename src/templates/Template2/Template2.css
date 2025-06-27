@@ -1,0 +1,58 @@
+/* Template2.css */
+.template2 {
+  background: #fdfdfd;
+  border: 1px solid #dee2e6;
+  color: #212529;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 800px;
+  width: 100%;
+}
+
+.template2-invoice-title {
+  font-size: 2.5rem;
+  color: #0077b6;
+  font-weight: bold;
+}
+
+.template2-logo {
+  height: 98px;
+  object-fit: contain;
+}
+
+.template2-box {
+  background-color: #e9f5ff;
+  border: 1px solid #bde0fe;
+}
+
+.template2-table th {
+  background-color: #0077b6;
+  color: #fff;
+  font-weight: 600;
+}
+
+.template2-table td,
+.template2-table th {
+  padding: 0.75rem;
+  vertical-align: middle;
+  border: 1px solid #dee2e6;
+}
+
+.template2-table tbody tr:hover {
+  background-color: #f1f9ff;
+}
+
+@media (max-width: 767.98px) {
+  .template2-invoice-title {
+    font-size: 1.8rem;
+  }
+
+  .template2-logo {
+    height: 60px;
+  }
+
+  .template2-table th,
+  .template2-table td {
+    font-size: 0.85rem;
+    padding: 0.5rem;
+  }
+}

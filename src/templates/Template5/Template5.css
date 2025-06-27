@@ -1,0 +1,52 @@
+/* Template5.css */
+.template5 {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  color: #111;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 800px;
+}
+
+.company-name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.invoice-label {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.section-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.3rem;
+  margin-bottom: 0.8rem;
+}
+
+.table th,
+.table td {
+  border-color: #222;
+}
+
+.table-light {
+  background-color: #f8f8f8;
+}
+
+@media (max-width: 768px) {
+  .invoice-label {
+    font-size: 2rem;
+  }
+
+  .company-name {
+    font-size: 1rem;
+  }
+
+  .section-title {
+    font-size: 1rem;
+  }
+}
