@@ -27,7 +27,7 @@ import {
   BsPlusSquareFill,
 } from "react-icons/bs";
 import { GoPlusCircle } from "react-icons/go";
-import { formatDate } from "../util/formatInvoiceData";
+import { formatDate } from "../util/FormatInvoiceData";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "@clerk/clerk-react";
 
