@@ -20,7 +20,7 @@ export const AppContextProvider = ({ children }) => {
   const [invoiceData, setInvoiceData] = useState(initialInvoiceData);
   const [selectedTemplate, setSelectedTemplate] = useState("template1");
 
-  const baseURL = import.meta.env.VITE_API_BASE_URL/api;
+  const baseURL = `${import.meta.env.VITE_API_BASE_URL}/api`;
 
   const contextValue = {
     invoiceTitle,
