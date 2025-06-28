@@ -1,16 +1,87 @@
+# 🧾 Invoice Generator (Frontend)
 
-# React + Vite
+🚀 [Live Demo](https://invoice-generator-frontend-theta-ten.vercel.app)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A modern, secure, full-stack **invoice generator** built to simplify billing, improve record keeping, and eliminate manual invoice handling for freelancers and businesses.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Overview
 
-## Expanding the ESLint configuration
+The Invoice Generator lets users:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✏️ Create customized invoices in minutes  
+- 💾 Save invoice records securely  
+- 📤 Upload company logos  
+- 📧 Send invoices via email  
+- 🖨️ Generate printable invoice previews
 
-# invoice-generator-frontend
- 6e75ae2f0779204f48952cf281932761d52272e6
+---
+
+## 🧑‍💻 Tech Stack
+
+| Category             | Technologies                             |
+|----------------------|------------------------------------------|
+| **Frontend**         | React, Vite, Tailwind CSS                |
+| **State Management** | React Context API                        |
+| **Backend**          | Spring Boot (Java 21)                    |
+| **Database**         | MongoDB Atlas                            |
+| **Cloud Storage**    | Cloudinary (for logo/image uploads)      |
+| **Authentication**   | Clerk.dev (JWT-based authentication)     |
+| **Deployment**       | Vercel (Frontend), Railway (Backend)     |
+| **Version Control**  | Git & GitHub                             |
+
+---
+
+## 🔐 Features & Security
+
+- 🔒 Secure authentication with Clerk.dev (JWT)
+- 🌐 CORS configured for cross-origin requests
+- 🔑 Credentials managed via `.env` & GitHub secrets
+- ☁️ Cloudinary handles secure image uploads
+
+---
+
+## 🧰 Tools Used
+
+- 📦 **Cloudinary** – For image/logo uploads  
+- 🚀 **Vercel** – Frontend deployment  
+- ⚙️ **Railway** – Backend deployment  
+- 🛡️ **Clerk** – Authentication & user management  
+- 📁 **MongoDB Atlas** – Cloud-hosted NoSQL database  
+- 🔧 **GitHub** – Source control
+
+---
+
+## 🧠 Why Use This?
+
+- ✅ Saves time — create and manage invoices fast  
+- ✅ Professional look — clean PDF preview and print  
+- ✅ Cloud-first — accessible from anywhere  
+- ✅ Secure — Clerk JWT-based auth  
+- ✅ Modern stack — built with real-world tools
+
+---
+
+## 🧪 Setup Locally (Frontend)
+
+### Prerequisites
+
+- Node.js v16+ and npm installed
+
+### Steps
+
+```bash
+# Clone the repository
+git clone https://github.com/naveenrhindi/invoice-generator-client.git
+cd invoice-generator-client
+
+# Install dependencies
+npm install
+
+# Create .env file
+VITE_API_BASE_URL=https://your-backend-url/api
+
+# Run the app
+npm run dev
+
